@@ -39,7 +39,7 @@ int rows2=Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите столбец искомого элемента: ");
 int columns2=Convert.ToInt32(Console.ReadLine());
 
-if (rows2 < rows || columns < columns2)
+if (rows2 < rows || columns2 < columns)
 {
     int element = array[rows2,columns2];
     Console.WriteLine ($"Значение элемента: {element}");
